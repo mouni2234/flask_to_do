@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: yourusername/flask-todo-app
+      IMAGE_NAME: mounika224/flask-todo-app
 
     steps:
       - name: 🛒 Checkout code
