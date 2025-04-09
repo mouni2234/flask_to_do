@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flask-todo-pod
+spec:
+  containers:
+    - name: flask-todo
+      image: "mounika224/todo-k8s-app:latest"
+      ports:
+        - containerPort: 5000
+        
+
+
